@@ -3,7 +3,7 @@ const clearBtn = document.querySelector('#clear-btn');
 const outputArea = document.querySelector('#ouput-area');
 const textInput = document.querySelector('#input-text');
 
-url = 'https://api.funtranslations.com/translate/austrian.json';
+url = 'https://api.funtranslations.com/translate/german-accent.json';
 
 const getTranslationURL = (text) => {
     return url + '?' + 'text' + text
