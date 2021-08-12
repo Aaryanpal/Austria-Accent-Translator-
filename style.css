@@ -1,0 +1,16 @@
+button{
+    display: inline-block;
+}
+textarea{
+    height: 17vh;
+    width: 720px;
+    display: block;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+#clear{
+    border: 2px solid rgb(20, 20, 20);
+    width: 100px;
+    height: 40px;
+}
