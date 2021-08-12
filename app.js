@@ -6,7 +6,7 @@ const textInput = document.querySelector('#input-text');
 url = 'https://api.funtranslations.com/translate/german-accent.json';
 
 const getTranslationURL = (text) => {
-    return url + '?' + 'text' + text
+    return url + '?' + 'text=' + text
 }
 const errorHandler = (error)=>{
     alert('Cannot Leave Blank')
@@ -17,8 +17,8 @@ translateBtn.addEventListener('click', () =>{
     fetch(getTranslationURL(inputText))
     .then(response=>response.json())
     .then(data=>{
-        const translatesText=data.contents.translated;
-        outputArea.innerText = translatesText;
+        const translatedText=data.contents.translated;
+        outputArea.innerText = translatedText;
     })
     .catch(errorHandler);
 })
