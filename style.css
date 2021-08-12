@@ -1,3 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    /* overflow: hidden; */
+}
+header{
+    background: #AF0011;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.hero-image{
+    width:400px;
+}
+main{
+    /* max-width: 1440px; */
+    margin: auto;
+    padding: 30px 0 30px 0;
+    position: relative;
+    background: url(image/NotoV1FlagForFlagRussia.svg);
+    background-position: center;
+
+}
 button{
     display: inline-block;
 }
@@ -7,22 +38,78 @@ textarea{
     display: block;
     padding: 1rem;
     margin: 1rem auto;
+    background-color: blanchedalmond;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px
+
 }
 
 #submit-btn{
     border: 2px solid rgb(20, 20, 20);
     width: 100px;
     height: 40px;
+    border-radius: 2px;
+    background: #AF0011;
+    font-size: 17px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 5px;
+    color: #f3f3f3;
 }
 
 #clear-btn{
     border: 2px solid rgb(20, 20, 20);
     width: 100px;
     height: 40px;
+    border-radius: 2px;
+    background: #AF0011;
+    font-size: 17px;
+    cursor: pointer;
+    display: inline-block;
+    color: #f3f3f3;
+}
 }
 #ouput-area{
-    height: 17vh;
+    height: 13vh;
     width: 720px;
     border: 1px black solid;
     display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    overflow-y: scroll;
+    background-color: blanchedalmond;
+}
+.center{
+    /* border: 1px black solid; */
+    width: 720px;
+    margin: auto;
+}
+
+footer{
+    background: #AF0011;
+    padding: 20px;
+    color: #f3f3f3;
+}
+
+#footer-center{
+    width: 720px;
+    margin: auto;
+}
+@media screen and (max-width: 1000px){
+    textarea{
+        width:100%; 
+    }
+
+    #output-area{
+        width:100%; 
+    }
+
+    .center{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .footer-center{
+        width: 100%;
+    }
 }
