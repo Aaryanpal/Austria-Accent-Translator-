@@ -9,8 +9,20 @@ textarea{
     margin: 1rem auto;
 }
 
-#clear{
+#submit-btn{
     border: 2px solid rgb(20, 20, 20);
     width: 100px;
     height: 40px;
+}
+
+#clear-btn{
+    border: 2px solid rgb(20, 20, 20);
+    width: 100px;
+    height: 40px;
+}
+#ouput-area{
+    height: 17vh;
+    width: 720px;
+    border: 1px black solid;
+    display: block;
 }
