@@ -1,6 +1,6 @@
 const translateBtn = document.querySelector('#submit-btn');
 const clearBtn = document.querySelector('#clear-btn');
-const outputArea = document.querySelector('#ouput-area');
+const outputArea = document.querySelector('#div-opt');
 const textInput = document.querySelector('#input-text');
 
 url = 'https://api.funtranslations.com/translate/russian-accent.json';
