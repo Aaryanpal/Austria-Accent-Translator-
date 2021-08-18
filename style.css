@@ -5,27 +5,74 @@
 }
 
 body{
+    background-color: #e9ecef;
     height: 100vh;
     margin: auto;
     font-family: 'Poppins', sans-serif;
-    /* overflow: hidden; */
+    
 }
-header{
-    background: #AF0011;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 30px;
+/* Navigation-bar */
+.navbar{
+    color:#14213d;
+    border-bottom: 3px solid #14213d;
+    padding: 1rem;
+    margin-bottom: 2rem;
 }
-.hero-image{
-    width:400px;
+.navbar .nav-head{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    padding-left: 2rem;
 }
+.header{
+    text-align:  center;
+    color: #AF0011;
+    font-weight: 600;
+    display: block;
+    margin:auto;
+    width: 90%;
+    max-width: 600px;
+    padding-bottom: 2rem;
+    font-size: 20px;
+}
+.div-btn{
+    text-align: center;
+}
+img{
+    width: 90%;
+    max-width: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.head-opt{
+    color: red;
+    font-weight: 600;
+    display: block;
+    margin: auto;
+    max-width: fit-content;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+#output-area{
+    border: red 3px solid;
+    border-radius: 20px;
+    display: block;
+    width: 80%;
+    height: 20vh;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+font-size: 15px;
+}
+
 main{
     /* max-width: 1440px; */
     margin: auto;
     padding: 30px 0 30px 0;
     position: relative;
-    background: url(image/NotoV1FlagForFlagRussia.svg);
+    
     background-position: center;
 
 }
@@ -68,48 +115,28 @@ textarea{
     display: inline-block;
     color: #f3f3f3;
 }
-}
-#ouput-area{
-    height: 13vh;
-    width: 720px;
-    border: 1px black solid;
-    display: block;
-    margin: 1rem auto;
-    padding: 1rem;
-    overflow-y: scroll;
-    background-color: blanchedalmond;
-}
+
 .center{
     /* border: 1px black solid; */
     width: 720px;
     margin: auto;
 }
 
-footer{
-    background: #AF0011;
-    padding: 20px;
-    color: #f3f3f3;
+/**footer**/
+.footer{
+    background-color: #AF0011;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
 }
-
-#footer-center{
-    width: 720px;
-    margin: auto;
+.footer .link{
+    color: white;
 }
-@media screen and (max-width: 1000px){
-    textarea{
-        width:100%; 
-    }
-
-    #output-area{
-        width:100%; 
-    }
-
-    .center{
-        width: 100%;
-        padding: 0 20px;
-    }
-
-    .footer-center{
-        width: 100%;
-    }
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
